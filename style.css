@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #c4c4df, #515ad3);
+    padding: 20px;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: radial-gradient(ellipse, #9ca1e0, #F8F8F9);
+    text-align: center;
+    border: #052a58 solid;
+    border-radius: 10px;
+    box-shadow: 0 7px 11px rgba(35, 35, 177, 0.8);
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #052a58;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: #052a58;
+}
+
+#historyList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#historyList li {
+    background-color: #e0e0e0;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+h1{
+    color: #052a58;
+    font-weight: bold ;
+    font-size: 50px;
+}
+
+h2{
+    color: #052a58;
+    font-weight: bold ;
+}
+
+
+
+
